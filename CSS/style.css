@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(218, 229, 248, 255);
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container-fluid {
+	background-image: url('../images/i21.jpg');
+	/* position: relative; */
+	background-size: cover; /* Adjusts the size of the background image */
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	background-image: none;
+	/* position: absolute; */
+	justify-content: space-between;
+	font-size: 20px;
+	background-image: inherit;
+	border-radius:15px;
+}
+
+.navbar li a{
+	margin-left: 1rem;
+	color: rgb(37, 72, 142);
+}
+
+.navbar .btn{
+    padding: 10px;
+    border: 1px solid rgb(73, 120, 208);
+    border-radius: 15px;
+    margin-right: 2px;
+    background-color: rgb(73, 120, 208);
+    color: antiquewhite;
+}
+.contain-I img {
+	margin: 5rem;
+}
+
+#f-img {
+	width: 200px;
+}
+
+.contain-II {
+	text-align: center;
+	padding: 5rem;
+}
+.contain-II h1{
+    color: darkblue;
+}
+.nav-video{
+    display:flex;
+  padding: 2rem;;
+}
+.v1{
+    flex: 0 0 16.666%;
+    border: 1px solid black;
+    height:50vh;
+    width:12vw;
+    margin:2rem;
+}
+.video1{
+    height:40vh;
+    width:12vw;
+}
+.nav-video h6{
+  text-align: center;
+}
+.rate{
+  color: red;
+}
+.card-header{
+	color: white;
+	background-color: rgba(174, 195, 234, 255);
+	font-size: 2rem;
+	text-align: center;
+}
+.loginbtn{
+	width: 100%;
+	border-radius: 15px;
+	padding: 1rem;
+	border : 1px solid rgba(174, 195, 234, 255) ;
+	background-color:rgba(174, 195, 234, 255) ;
+	color:white;
+}
+.contact{
+	border: 1px solid rgba(174, 195, 234, 255);
+	border-radius: 10px;
+	padding: 5rem;
+	width:50%;
+	margin-top:5rem;
+	background-color:rgba(174, 195, 234, 255);
+	margin:auto;
+}
+.contact h3{
+	color: white;
+}
+.contact .btn{
+	border : 1px solid rgb(73, 120, 208);
+	padding:1rem;	
+	background-color:rgb(73, 120, 208);
+	color:white;
+}
+.navbar .dp-I{
+	border: 1px solid darkblue;
+	/* padding: 5px; */
+	background-color:darkblue;
+	color:white;
+	border-radius:15px;
+}
+.navbar .dp-I a{
+	color:white;
+}
+.navbar .dp-menu{
+	background-color:darkblue;
+}
+.navbar .dp-menu a{
+	color:white;
+}
+.admindashboard{
+	padding: 1rem;
+	font-size: 1rem ;
+	width:100%;
+	background-color:rgba(174, 195, 234, 255) ;
+	color: darkblue;
+	margin-top: 1rem;
+	border: 1px solid rgba(174, 195, 234, 255) ;
+	border-radius: 15px;
+}
+.middle-cont{
+	padding: 1rem;
+}
+.middle-cont .row .hidden{
+	display: none;
+}
+.middle-cont .row .dashboard{
+	border: 5px solid rgba(174, 195, 234, 255) ;
+	border-radius: 20px;
+	padding: 1rem;
+	background-color:rgba(174, 195, 234, 255) ;
+}
+.middle-cont .row .dashboard .menubtn{
+	padding: 1rem;
+	border-radius: 15px;
+	background-color: darkblue;
+}
+.middle-cont .row .dashboard .menubtn:hover{
+	background-color: blue;
+}
+.middle-cont .row .dashboard .u{
+	/* margin-left:5rem; */
+	margin: 5px;
+	font-size: 20px;
+	color: darkblue;
+}
+.middle-cont .row .dashboard input{
+	padding: 10px;
+	border-radius: 15px;
+	width: 200px;
+}
+.middle-cont .row .dashboard .saledb{
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	padding: 1rem;
+}
+@media screen and (max-width: 1000px) {
+	.contain-I img {
+		margin: 5rem;
+		width: 300px;
+	}
+	#f-img {
+		width: 100px;
+	}
+    .v1{
+        /* flex-basis: 100%;  */
+        border: 1px solid black;
+        height:50vh;
+        width:100%;
+        margin:2rem;
+    }
+}
+

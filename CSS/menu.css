@@ -1,0 +1,133 @@
+*{
+	padding:0%;
+	margin:0%;
+	box-sizing:border-box;
+}
+.container-fluid{
+	background-color: black;
+}
+#menu{
+	padding:25px 0 25px 0;
+	display:flex;
+	margin:0 50px 0 50px;
+	border-top: 2px solid black;
+}
+.section{
+	padding:20px 0 20px 0;
+	text-align:center;
+	background: linear-gradient(#933450, rgb(172, 65, 97));
+	color:white;
+	width:auto;
+	font-size:3rem;
+	font-family:verdana;
+	border-radius:30px;
+}
+
+#heading{
+	margin:20px;
+	text-align:center;
+	color:white;
+	padding:2rem;
+	width:500px;
+	border-bottom:1px solid #531c20;
+	border-radius:10px;
+	box-shadow:10px 7px 20px #933450;
+}
+#menu_row{
+	display:flex;
+	padding:0 50px 0 50px;
+	flex-direction:column;
+}
+#menu_col{
+	box-shadow:2px 2px 2px #bbb;
+	border-radius:20px;
+	margin:10px;
+	margin-bottom:2rem;
+	padding:40px;
+	background-color: #531c20;
+	flex:1;
+}
+#menu_col:hover{
+	box-shadow:10px 7px 20px  rgb(240, 155, 36); 
+}
+#menu_col h2{
+	background-color:red;
+	color:#fff;
+	text-align:center;
+	padding:5px;
+	 font-size: large;
+	font-family:cursive;
+	
+}
+#image{
+	width:250px;
+	height:250px;
+	border-radius:50%;
+	padding:5px;
+	margin:5px;
+	 
+}
+#image img{
+	width:240px;
+	height:235px;
+	border-radius:50%;
+	object-fit:cover;
+}
+/*#image img:hover{
+	filter:drop-shadow(10px 7px 20px  rgb(240, 155, 36)); 
+}*/
+.box{
+	display:flex;
+	flex-direction:column;
+	margin:5px;
+	background-color: #531c20;
+}
+.title{
+	text-align:center;
+	margin-top:10px;
+	border-radius:15px;
+	background: black;
+	color:white;
+	width:270px;
+	padding:5px;
+}
+@media(min-width:300px)and (max-width:1200px){
+	.title{
+	text-align:center;
+	margin-top:10px;
+	border-radius:15px;
+	background: black;
+	color:white;
+	width:200px;
+	padding:5px;
+}
+	#image{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	padding:5px;
+	margin:5px; 
+}
+#image img{
+	width:140px;
+	height:135px;
+	margin-left:28px;
+	border-radius:50%;
+	object-fit:cover;
+}
+	#menu{
+	padding:5px;
+	display:flex;
+	margin:1px;
+	border-top: 2px solid black;
+}
+	#menu_col{
+	box-shadow:2px 2px 2px #bbb;
+	border-radius:20px;
+	margin:1px;
+	margin-bottom:1rem;
+	padding:5px;
+	background-color: #531c20;
+	flex:1;
+}
+}
